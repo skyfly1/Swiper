@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/swiperr.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/media.css" media="screen">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/swiper.js"></script>
 </head>
@@ -91,7 +92,8 @@
         nextButton: '.swiper-next',
         prevButton: '.swiper-prev',
         slidesPerView: 5,
-        autoplay:2500,
+        autopay:2500,
+        speed: 600,
         spaceBetween: 14,
         slidesPerGroup: 5,
           breakpoints: {
@@ -99,17 +101,17 @@
              slidesPerView: 1,
              slidesPerGroup: 1,
             },
-            530: {
+            565: {
               slidesPerView: 2,
               slidesPerGroup: 2,
             },
     // when window width is <= 480px
-            830: {
+            860: {
               slidesPerView: 3,
               slidesPerGroup: 3,
             },
     // when window width is <= 640px
-            1095: {
+            1175: {
               slidesPerView: 4,
               slidesPerGroup: 4,
             }

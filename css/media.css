@@ -1,0 +1,8 @@
+@media screen and (max-width: 860px){
+
+   .swiper-container{ width: 85% ;}
+}
+@media screen and (max-width: 320px){
+  
+  .swiper-container{ width: 73% ;}
+}
