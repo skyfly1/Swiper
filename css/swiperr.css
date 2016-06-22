@@ -127,7 +127,7 @@ span{
 }
 .swiper-next{
   width: 20px;
-  right: 26px !important;
+  right: 23px !important;
   top:26% !important;
 }
 .fa-chevron-left{
@@ -138,5 +138,5 @@ span{
 .swiper-prev{
   width: 20px;
   top:26%;
-  right: 66px;
+  right: 63px;
 }
